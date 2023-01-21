@@ -1,7 +1,7 @@
 alert("test");
 
 
-$(document).ready(function(){
+$().ready(function(){
     /*code here*/
     console.log("On ready")
     alert("test2");
