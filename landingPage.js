@@ -1,6 +1,6 @@
 alert("test");
 
-function onLoadPage() {
+document.onload = function onLoadPage() {
     alert("test2");
     $("#headerContainer").load("header.html");
 }
