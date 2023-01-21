@@ -1,8 +1,9 @@
 alert("test");
 
-$(document).ready(function(){
+
+jquery(document).ready(function(){
     /*code here*/
     console.log("On ready")
     alert("test2");
-    $("#headerContainer").load("header.html");
+    jquery("#headerContainer").load("header.html");
 })
