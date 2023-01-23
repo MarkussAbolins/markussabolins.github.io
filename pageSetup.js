@@ -1,4 +1,3 @@
-
 $().ready(function(){
     /*code here*/
     console.log("On ready")
