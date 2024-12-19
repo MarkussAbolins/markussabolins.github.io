@@ -6,6 +6,7 @@
 <head>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
   <script src="pageSetup.js" type="text/javascript"></script>
+  <script src="landingPage.js" type="text/javascript"></script>
   <link rel="stylesheet" type="text/css" href="core.css">
   <meta charset="utf-8">
   <title>Merry Christmas</title>
@@ -43,10 +44,10 @@
     <span class="key">D</span>
   </div>
   <div class="LoginFieldDiv">
-    <input maxlength='4' value=''/>
+    <input maxlength='4' value='' id="loginInput"/>
   </div>
   <div class="LoginButtonDiv">
-    <button>
+    <button onclick="handleLogin()">
       <span>Log in!</span>
     </button>
   </div>
