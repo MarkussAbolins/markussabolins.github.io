@@ -16,15 +16,23 @@ function handleLogin() {
       return;
     }
     if (input === "AL91"){
+        window.location.href = "alex.html";
         return;
     }
     if (input === "96MP"){
+        window.location.href = "madara.html";
         return;
     }
     if (input === "CHSZ"){
+        window.location.href = "olia.html";
         return;
     }
     if (input === "24HE"){
+        window.location.href = "heli.html";
+        return;
+    }
+    if (input === "IDOT"){
+        window.location.href = "bralis.html";
         return;
     }
     else {

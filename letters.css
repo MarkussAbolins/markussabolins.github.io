@@ -1,0 +1,74 @@
+
+
+body {
+    background-color: #101013;
+    color: #fff;
+    display: block;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    padding: 5%;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+  }
+div{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif; 
+    font-weight: 900;
+    font-size: 26px;
+}
+a{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif; 
+    font-weight: 900;
+    font-size: 26px; 
+}
+  .greetingA {
+    font-size: 100px; 
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: transparent; 
+    background: linear-gradient(to right, white 0%, gray 100%);
+    -webkit-background-clip: text;
+    background-size: 100% 100%; 
+    white-space: normal; 
+    word-break: break-word; 
+    text-align: center; 
+  }
+
+  .christmas {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #e9b7ce, #b5c6e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .drunkWarning {
+    background: linear-gradient(90deg, #FF0000, #BABABA); 
+    border: 1px solid #FF0000; 
+    border-radius: 10px; 
+    padding: 15px;
+    margin: 20px auto; 
+    width: fit-content; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px; 
+    color: white; 
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .letterBody {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
