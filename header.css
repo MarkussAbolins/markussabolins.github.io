@@ -1,0 +1,38 @@
+.customHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.customHeader-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.customHeader-link:hover {
+  color: #f39c12;
+  border-bottom: 2px solid #f39c12;
+}
+
+@media (max-width: 768px) {
+  .customHeader {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .customHeader-link {
+    margin: 0.5rem 0;
+  }
+}
