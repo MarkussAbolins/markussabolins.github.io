@@ -18,6 +18,23 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("headerContainer").innerHTML = `<p style="color: red;">Failed to load header.</p>`;
             });
     }
+    function loadFooter() {
+        fetch("footer.html")
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.text();
+            })
+            .then(data => {
+                document.getElementById("footerContainer").innerHTML = data;
+            })
+            .catch(error => {
+                console.error("Error loading footer:", error);
+                document.getElementById("footerContainer").innerHTML = `<p style="color: red;">Failed to load header.</p>`;
+            });
+    }
 
     loadHeader();
+    loadFooter();
 });

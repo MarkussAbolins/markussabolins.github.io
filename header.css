@@ -1,4 +1,4 @@
-.customHeader {
+.customHeaderWork {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@
   z-index: 1000;
 }
 
-.customHeader-link {
+.customHeaderWork-link {
   color: white;
   text-decoration: none;
   margin: 0 1rem;
@@ -21,9 +21,15 @@
   border-bottom: 2px solid transparent;
 }
 
-.customHeader-link:hover {
+.customHeaderWork-link:hover {
   color: #f39c12;
   border-bottom: 2px solid #f39c12;
+}
+
+.headerIntro {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
